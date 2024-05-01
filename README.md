@@ -2,9 +2,7 @@
 
 ### GetWatcher est un outil qui permet de créer un journal d'événements pour Windows (ETW) est de journaliser l'ensemble des actions effectué par les utilisateurs du système.
 
-
-https://github.com/xnom0/GetWatcher/assets/168633454/88da5f0b-2d14-475f-bca9-b20d585af59a
-
+![Screenshot_20240501_153854](https://github.com/xnom0/GetWatcher/assets/168633454/ef1013c4-331a-4e79-9f3e-4cec5b97dd55)
 
 Il permet de créer un log lorsque :
 * un fichier où dossier est créé
@@ -28,11 +26,12 @@ le format des logs est classiques (ETW) il est donc possible de les intégrer di
 Exécuté GetWatcher.exe avec l'invite de commande ou powershell (les droits d'administration sont obligatoires pour l'installation), puis avec l'argument -i il est possible d'installer GetWatcher.
 
  `GetWatcher.exe -i`
- 
-### affiché l'aide
-
- `GetWatcher.exe -h`
 
  ### Désinstallation
 
+ Exécuté GetWatcher.exe avec l'invite de commande ou powershell (les droits d'administration sont obligatoires pour l'installation), puis avec l'argument -u il est possible de désinstaller GetWatcher.
+
   `GetWatcher.exe -u`
+
+  ## Vidéo de démonstration 
+  https://github.com/xnom0/GetWatcher/assets/168633454/88da5f0b-2d14-475f-bca9-b20d585af59a
