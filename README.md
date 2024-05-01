@@ -1,6 +1,6 @@
 # GetWatcher
 
-## GetWatcher est un outil qui permet de créer un journal d'événements pour Windows (ETW) est de journaliser l'ensemble des actions effectué par les utilisateurs du système.
+### GetWatcher est un outil qui permet de créer un journal d'événements pour Windows (ETW) est de journaliser l'ensemble des actions effectué par les utilisateurs du système.
 
 
 https://github.com/xnom0/GetWatcher/assets/168633454/88da5f0b-2d14-475f-bca9-b20d585af59a
