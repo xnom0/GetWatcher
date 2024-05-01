@@ -16,6 +16,10 @@ Afin de compiler GetWatcher vous pouvez utiliser mono sous GNU/Linux ou visual s
 
 `mcs -out:GetWatcher.exe GetWatcher.cs`
 
-Par défaut GetWatcher log toutes les actions effectuées dans le dossier *C:\Users\* il est possible de modifier ce répertoire dans la clé de registre suivante :  **Software\GetWatcher\Path**
+Par défaut GetWatcher log toutes les actions effectuées dans le dossier `C:\Users\` il est possible de modifier ce répertoire dans la clé de registre suivante :  **Software\GetWatcher\Path**
 
 Une version compilée est disponible mais je vous invite à lire le code et le compiler vous-même.
+
+le format des logs est classiques (ETW) il est donc possible de les intégrer directement à un siem 😉 
+
+<font color='red'>*PS* Je ne suis pas développeur donc n'hésitez pas à proposer vos améliorations sur ce projet</font>
