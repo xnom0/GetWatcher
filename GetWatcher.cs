@@ -339,7 +339,7 @@ public class GetWatcher
     {
         Console.WriteLine("\nGetWatcher, log your actions. ");
         Console.WriteLine("2019 - 2024 Tristan Manzano\n");
-        Console.WriteLine("Example : GetWatcher [-i] [-h]\n");
+        Console.WriteLine("Example : GetWatcher [-i] [-h] [-u]\n");
         Console.WriteLine("Function : \n");
         Console.WriteLine("-i : Install GetWatcher on your system");
         Console.WriteLine("-u : Uninstall GetWatcher on your system");
