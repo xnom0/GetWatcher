@@ -11,3 +11,6 @@ Il permet de créer un log lorsque :
 - un fichier où dossier est renommé
 
 afin de compiler GetWatcher vous pouvez utiliser mono sous GNU/Linux ou visual studio sous Windows
+-
+mcs -out:GetWatcher.exe GetWatcher.cs
+-
