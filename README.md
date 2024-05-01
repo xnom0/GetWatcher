@@ -23,3 +23,16 @@ Une version compilée est disponible mais je vous invite à lire le code et le c
 le format des logs est classiques (ETW) il est donc possible de les intégrer directement à un siem 😉 
 
 <font color='red'>*PS* Je ne suis pas développeur donc n'hésitez pas à proposer vos améliorations sur ce projet</font>
+
+### Installation 
+Exécuté GetWatcher.exe avec l'invite de commande ou powershell (les droits d'administration sont obligatoires pour l'installation), puis avec l'argument -i il est possible d'installer GetWatcher.
+
+ `GetWatcher.exe -i`
+ 
+### affiché l'aide
+
+ `GetWatcher.exe -h`
+
+ ### Désinstallation
+
+  `GetWatcher.exe -u`
