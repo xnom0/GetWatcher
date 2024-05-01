@@ -6,3 +6,8 @@ Il permet de créer un log lorsque :
 - un fichier où dossier est supprimé
 - un fichier où dossier est renommé
 
+
+https://github.com/xnom0/GetWatcher/assets/168633454/88da5f0b-2d14-475f-bca9-b20d585af59a
+
+
+
